@@ -9,7 +9,7 @@
 <div class="border">
 
   <div class="slider">
- <?php echo do_shortcode('[slick-slider category="3" design="design-1"]'); ?>
+ <?php echo do_shortcode('[slick-slider category="2" design="design-1"]'); ?>
   </div>
 
 
