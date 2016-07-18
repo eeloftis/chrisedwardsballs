@@ -132,6 +132,8 @@ float:left;
 /* footer */
 .footer {
 
+	max-width: 720px;
+	margin: 0 auto;
 }
 
 /*------------------------------------*\
@@ -145,6 +147,11 @@ display: block;
 
 }
 
+.slider {
+
+	border: 10px solid #f3f3f3;
+}
+
 .preorder-button {
 
 	background-color: #060E9F;
@@ -153,12 +160,21 @@ display: block;
 	display: block;
 	width: 100%;
 	margin-top:2%;
+	padding:10px 0;
 	margin-bottom: 2%;
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: bold;
 	border-radius: 2px;
-	  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4)
+	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+.preorder-button:hover {
+
+	color: #fff;
+	text-decoration: underline;
 }
 
 .row {
@@ -172,14 +188,58 @@ display: block;
 }
 
 .boxes {
-	background-color: #fff;
+	background-color: #f3f3f3;
 	width: 49%;
 	float: left;
+	padding: 5px 20px 20px 20px;
+	font-family: 'PT Sans', sans-serif;
+	height: 300px; //gonna remove
+
 }
 
 .boxes:first-child {
 
 		margin-right: 2%;
+}
+
+.boxes h2 {
+	color: #060E9F;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.event {
+ color: #524B48;
+ margin-bottom: 10px;
+ font-size: 14px;
+ font-family: 'PT Sans', sans-serif;
+}
+
+.press {
+	color: #524B48;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: underline;
+
+}
+
+h1 {
+	padding: 10px 0 10px 20px;
+	background-color: #f3f3f3;
+	color: #060E9F;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 28px;
+	margin: 0;
+	text-align: center;
+}
+
+.content-block {
+	padding: 10px 20px 30px 20px;
+	background-color: #f3f3f3;
+		color: #524B48;
+		font-size: 14px;
+		font-family: 'PT Sans', sans-serif;
 }
 
 /*------------------------------------*\
@@ -193,12 +253,8 @@ display: block;
 \*------------------------------------*/
 
 @font-face {
-	font-family:'Font-Name';
-	src:url('fonts/font-name.eot');
-	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
-		url('fonts/font-name.woff') format('woff'),
-		url('fonts/font-name.ttf') format('truetype'),
-		url('fonts/font-name.svg#font-name') format('svg');
+	font-family: 'PT Sans', sans-serif;
+
     font-weight:normal;
     font-style:normal;
 }

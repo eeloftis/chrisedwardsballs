@@ -4,6 +4,9 @@
 		<!-- section -->
 		<section>
 
+
+			<div class="border">
+
 			<h1><?php the_title(); ?></h1>
 
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
@@ -11,19 +14,21 @@
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-				<?php the_content(); ?>
+				<div class="content-block">
 
-				<?php comments_template( '', true ); // Remove if you don't want comments ?>
+					<?php the_content(); ?>
+
 
 				<br class="clear">
 
-				<?php edit_post_link(); ?>
+				<!-- <?php edit_post_link(); ?> -->
+
+						</div>
 
 			</article>
 			<!-- /article -->
 
 		<?php endwhile; ?>
-
 		<?php else: ?>
 
 			<!-- article -->
@@ -36,10 +41,11 @@
 
 		<?php endif; ?>
 
+	</div>
+
 		</section>
 		<!-- /section -->
+
 	</main>
 
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
+	<?php get_footer(); ?>
