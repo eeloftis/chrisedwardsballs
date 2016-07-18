@@ -225,12 +225,12 @@ display: block;
 }
 
 h1 {
-	padding: 10px 0 10px 20px;
+	padding: 20px 0 10px 20px;
 	background-color: #f3f3f3;
 	color: #060E9F;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 28px;
-	margin: 10px 0 0 0;
+	margin: 0;
 	text-align: center;
 }
 
