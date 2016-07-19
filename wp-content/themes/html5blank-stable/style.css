@@ -150,6 +150,12 @@ display: block;
 .slider {
 
 	border: 10px solid #f3f3f3;
+		border-bottom: 20px solid #f3f3f3;
+}
+
+.wpsisac-slick-slider.design-1 .slick-dots {
+
+	bottom: -17px !important;
 }
 
 .preorder-button {
