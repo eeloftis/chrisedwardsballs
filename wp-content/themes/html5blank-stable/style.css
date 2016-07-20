@@ -151,6 +151,8 @@ display: block;
 
 	border: 10px solid #f3f3f3;
 		border-bottom: 20px solid #f3f3f3;
+		padding: 25px 50px;
+		background-color: #fff;
 }
 
 .wpsisac-slick-slider.design-1 .slick-dots {
