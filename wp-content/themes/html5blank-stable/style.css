@@ -150,14 +150,26 @@ display: block;
 .slider {
 
 	border: 10px solid #f3f3f3;
-		border-bottom: 20px solid #f3f3f3;
 		padding: 25px 50px;
 		background-color: #fff;
 }
 
 .wpsisac-slick-slider.design-1 .slick-dots {
+	bottom: -20px !important;
+}
 
-	bottom: -17px !important;
+.wpsisac-slick-slider.design-1 .slick-next {
+	right: -40px !important;
+}
+
+.wpsisac-slick-slider.design-1 .slick-prev {
+left: -40px !important;
+
+}
+
+::selection {
+
+	background: #fff !important;
 }
 
 .preorder-button {
@@ -167,14 +179,14 @@ display: block;
 	text-align: center;
 	display: block;
 	width: 100%;
-	margin-top:2%;
+	margin-top:25px;
 	padding:10px 0;
-	margin-bottom: 2%;
+	margin-bottom: 25px;
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: bold;
 	border-radius: 2px;
-	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.2);
 	font-family: 'PT Sans', sans-serif;
 
 }
@@ -190,7 +202,7 @@ display: block;
 }
 
 .border {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.1);
 	padding: 2%;
 
 }
