@@ -154,6 +154,38 @@ width: 940px;
 	padding: 5px 0  0;
 }
 
+.footer-nav  {
+	padding: 0 0 0 5px;
+	border-top: 1px solid #252D68;
+}
+
+.footer-nav  li {
+	color: #252D68;
+	font-size: 18px;
+	padding-right: 30px;
+	display: inline-block;
+	padding-left: 0;
+	margin-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.social-media {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 20px 0;
+		font-weight: bold;
+		color: #252D68;
+		font-size: 18px;
+		text-transform: uppercase;
+
+}
+
+.social-media img {
+	position:relative;
+	top: 4px;
+}
+
 .copyright {
 position: relative;
 left: 5px;
@@ -184,9 +216,11 @@ background-color: rgba(0, 0,0, 0.1);
 .slider {
 
 	border: 10px solid #f3f3f3;
-	border-top: 5px solid #f3f3f3;
-		padding: 25px 50px;
+		padding: 10px 120px 25px 120px;
 		background-color: #fff;
+		position: relative;
+		top: -10px;
+
 
 }
 
@@ -195,11 +229,37 @@ background-color: rgba(0, 0,0, 0.1);
 }
 
 .wpsisac-slick-slider.design-1 .slick-next {
-	right: -40px !important;
+	right: -80px !important;
+	background-color: transparent !important;
 }
 
+/*.wpsisac-slick-slider button.slick-next:hover {
+background: url(img/arrow-right-hover.png) 0 0 no-repeat !important;
+background-size: 30px 51px !important;
+
+
+}*/
+
+
 .wpsisac-slick-slider.design-1 .slick-prev {
-left: -40px !important;
+left: -80px !important;
+background-color: transparent !important;
+}
+
+/*.wpsisac-slick-slider button.slick-prev:hover {
+background: url(img/arrow-left-hover.png) 0 0 no-repeat !important;
+background-size: 30px 51px !important;
+
+
+}*/
+
+.wpsisac-slick-slider .slick-dots li button {
+	border: 1px solid #cdcdcd !important;
+
+}
+
+.wpsisac-slick-slider .slick-dots li.slick-active button {
+	background: #cdcdcd !important;
 
 }
 
@@ -213,7 +273,7 @@ left: -40px !important;
 	text-align: center;
 	display: block;
 	width: 100%;
-	margin-top: 25px;
+	margin-top: 15px;
 	padding:10px 0;
 	margin-bottom: 25px;
 	font-size: 36px;
@@ -276,7 +336,7 @@ left: -40px !important;
 h1 {
 	padding: 20px 0 10px 20px;
 	background-color: #fff;
-	color: #060E9F;
+	color: #2A328E;
 	font-family: 'pt sans', sans-serif;
 	font-size: 28px;
 	margin: 0;
@@ -287,6 +347,7 @@ h1 {
 	padding: 10px 20px 30px 20px;
 	background-color: #fff;
 		color: #524B48;
+		height: auto;
 		font-size: 14px;
 		font-family: 'pt sans', sans-serif;
 }
