@@ -12,11 +12,11 @@
 				<!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#F2F2F2; clear:left; font:14px 'PT Sans', sans-serif; color: #524B48;}
+	#mc_embed_signup{background:#FFF; clear:left; font:14px 'PT Sans', sans-serif; color: #000;}
 
 #mc_embed_signup h2 {
-	color: #060E9F;
-	text-transform: uppercase;
+	color: #000;
+
 	font-size: 22px;
 	 }
 
@@ -34,6 +34,10 @@
 		border-radius: 2px;
 
 
+	}
+
+	#mc-embedded-subscribe:hover {
+		text-decoration: underline;
 	}
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */

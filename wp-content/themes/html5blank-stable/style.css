@@ -138,7 +138,7 @@ float:left;
 
 	margin: 0 auto;
 
-	background-color: #F2F2F2;
+	background-color: #fff;
 
 }
 
@@ -151,7 +151,7 @@ margin-bottom: 0;
 
 .copyright {
 	padding: 30px 0 15px 23px;
-	background-color: #F2F2F2;
+	background-color: #fff;
 
 }
 
@@ -163,7 +163,7 @@ section {
 max-width: 720px;
 margin: 20px auto 50px auto;
 display: block;
-
+background-color: rgba(0, 0,0, 0.1)
 }
 
 .slider {
