@@ -11,6 +11,8 @@
 	License URI: http://opensource.org/licenses/mit-license.php
 */
 
+
+
 /*------------------------------------*\
     MAIN
 \*------------------------------------*/
@@ -30,14 +32,16 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4  'PT Sans', sans-serif;
+	font:300 11px/1.4  'pt sans
+
+', sans-serif;
 ;
 	color:#444;
 	background-color: #F2F2F2;
 
 	background-image: url('img/background.jpg');
 	background-repeat: repeat;
-	background-size: 100% !important;
+	/*background-size: 100% !important;*/
 }
 /* clear */
 .clear:before,
@@ -81,7 +85,7 @@ input:focus {
 
 /* wrapper */
 .wrapper {
-	max-width: 900px;
+	max-width: 935px;
 	width:95%;
 	margin:0 auto;
 	position:relative;
@@ -122,7 +126,7 @@ float:left;
 
 .nav ul li a {
 	color: #fff;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: bold;
 	margin-right: 20px;
 	margin-left: 10px;
@@ -134,31 +138,35 @@ float:left;
 }
 /* footer */
 .footer {
-	height: 470px;
+
 
 	margin: 0 auto;
-	border-top: 2px solid rgba(0, 0,0, 0.1);
-	background-color: #fff;
+	//border-top: 2px solid rgba(0, 0,0, 0.1);
+	background-color: #A9C5E5;
 
 }
 
 .footer section {
-height: 450px;
-background-color: #fff;
+
+background-color: #A9C5E5;
 margin-bottom: 0;
+width: 940px;
 	padding: 5px 0  0;
 }
 
 .copyright {
 position: relative;
-left: 23px;
-top: 20px;
-	background-color: #fff !important;
+left: 5px;
+color: #252D68;
+font-size: 14px;
+top: 10px;
+	background-color: #A9C5E5 !important;
 
 }
 
  p.copyright {
-
+max-width: 940px;
+margin: 0 auto;
 	-webkit-margin-after: 0;
 }
 
@@ -167,7 +175,7 @@ top: 20px;
 \*------------------------------------*/
 
 section {
-max-width: 720px;
+max-width: 935px;
 margin: 20px auto 50px auto;
 display: block;
 background-color: rgba(0, 0,0, 0.1);
@@ -196,13 +204,11 @@ left: -40px !important;
 }
 
 ::selection {
-
 	background: #fff !important;
 }
 
 .preorder-button {
-
-	background-color: #060E9F;
+	background-color: #2A328E;
 	color: #fff;
 	text-align: center;
 	display: block;
@@ -210,17 +216,16 @@ left: -40px !important;
 	margin-top: 25px;
 	padding:10px 0;
 	margin-bottom: 25px;
-	font-size: 24px;
+	font-size: 36px;
 	text-transform: uppercase;
-	font-weight: bold;
 	border-radius: 2px;
 	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.2);
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'pt sans
 
+', sans-serif;
 }
 
 .preorder-button:hover {
-
 	color: #fff;
 	text-decoration: underline;
 }
@@ -232,7 +237,6 @@ left: -40px !important;
 .border {
 	/*background-color: rgba(0, 0, 0, 0.1);*/
 	padding: 2%;
-
 }
 
 .boxes {
@@ -240,34 +244,38 @@ left: -40px !important;
 	width: 49%;
 	float: left;
 	padding: 5px 20px 20px 20px;
-	font-family: 'PT Sans', sans-serif;
-	height: 300px; //gonna remove
-
+	font-family: 'pt sans
+', sans-serif;
+	height: 450px; //gonna remove & use right height
 }
 
 .boxes:first-child {
-
 		margin-right: 2%;
 }
 
 .boxes h2 {
-	color: #060E9F;
+	color: #2A328E;
+	font-weight: 500;
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 33px;
 }
 
 .event {
  color: #524B48;
- margin-bottom: 10px;
- font-size: 14px;
- font-family: 'PT Sans', sans-serif;
+ margin-bottom: 35px;
+ font-size: 20px;
+ font-family: 'pt sans
+
+', sans-serif;
 }
 
 .press {
 	color: #524B48;
-	margin-bottom: 10px;
-	font-size: 14px;
-	font-family: 'PT Sans', sans-serif;
+	margin-bottom: 35px;
+	font-size: 20px;
+	font-family: 'pt sans
+
+', sans-serif;
 	text-decoration: underline;
 
 }
@@ -276,7 +284,9 @@ h1 {
 	padding: 20px 0 10px 20px;
 	background-color: #fff;
 	color: #060E9F;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'pt sans
+
+', sans-serif;
 	font-size: 28px;
 	margin: 0;
 	text-align: center;
@@ -287,7 +297,9 @@ h1 {
 	background-color: #fff;
 		color: #524B48;
 		font-size: 14px;
-		font-family: 'PT Sans', sans-serif;
+		font-family: 'pt sans
+
+', sans-serif;
 }
 
 
@@ -301,12 +313,9 @@ h1 {
 	TYPOGRAPHY
 \*------------------------------------*/
 
-@font-face {
-	font-family: 'PT Sans', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
-    font-weight:normal;
-    font-style:normal;
-}
+
 
 /*------------------------------------*\
     RESPONSIVE
