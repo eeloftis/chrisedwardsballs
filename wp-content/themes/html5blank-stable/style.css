@@ -30,8 +30,11 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font:300 11px/1.4  'PT Sans', sans-serif;
+;
 	color:#444;
+	background-color: #F2F2F2;
+
 	background-image: url('img/background.jpg');
 	background-repeat: repeat;
 	background-size: 100% !important;
@@ -131,9 +134,19 @@ float:left;
 }
 /* footer */
 .footer {
+	height: 600px;
 
-	max-width: 720px;
 	margin: 0 auto;
+
+	background-color: #F2F2F2;
+
+}
+
+.footer section {
+height: 600px;
+background-color: transparent;
+margin-bottom: 0;
+	padding: 5px 0 20px 0;
 }
 
 /*------------------------------------*\
@@ -152,6 +165,7 @@ display: block;
 	border: 10px solid #f3f3f3;
 		padding: 25px 50px;
 		background-color: #fff;
+
 }
 
 .wpsisac-slick-slider.design-1 .slick-dots {
@@ -202,7 +216,7 @@ left: -40px !important;
 }
 
 .border {
-	background-color: rgba(0, 0, 0, 0.1);
+	/*background-color: rgba(0, 0, 0, 0.1);*/
 	padding: 2%;
 
 }
@@ -262,6 +276,10 @@ h1 {
 		font-family: 'PT Sans', sans-serif;
 }
 
+.copyright {
+	padding-left: 10px;
+}
+
 /*------------------------------------*\
     IMAGES
 \*------------------------------------*/
@@ -311,17 +329,14 @@ h1 {
 \*------------------------------------*/
 
 ::selection {
-	background:#04A4CC;
 	color:#FFF;
 	text-shadow:none;
 }
 ::-webkit-selection {
-	background:#04A4CC;
 	color:#FFF;
 	text-shadow:none;
 }
 ::-moz-selection {
-	background:#04A4CC;
 	color:#FFF;
 	text-shadow:none;
 }
