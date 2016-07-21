@@ -220,9 +220,7 @@ left: -40px !important;
 	text-transform: uppercase;
 	border-radius: 2px;
 	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.2);
-	font-family: 'pt sans
-
-', sans-serif;
+	font-family: 'pt sans', sans-serif;
 }
 
 .preorder-button:hover {
@@ -244,9 +242,8 @@ left: -40px !important;
 	width: 49%;
 	float: left;
 	padding: 5px 20px 20px 20px;
-	font-family: 'pt sans
-', sans-serif;
-	height: 450px; //gonna remove & use right height
+	font-family: 'pt sans', sans-serif;
+	height: 450px;
 }
 
 .boxes:first-child {
@@ -262,20 +259,16 @@ left: -40px !important;
 
 .event {
  color: #524B48;
- margin-bottom: 35px;
+ margin-bottom: 20px;
  font-size: 20px;
- font-family: 'pt sans
-
-', sans-serif;
+ font-family: 'pt sans', sans-serif;
 }
 
 .press {
 	color: #524B48;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 	font-size: 20px;
-	font-family: 'pt sans
-
-', sans-serif;
+	font-family: 'pt sans', sans-serif;
 	text-decoration: underline;
 
 }
@@ -284,9 +277,7 @@ h1 {
 	padding: 20px 0 10px 20px;
 	background-color: #fff;
 	color: #060E9F;
-	font-family: 'pt sans
-
-', sans-serif;
+	font-family: 'pt sans', sans-serif;
 	font-size: 28px;
 	margin: 0;
 	text-align: center;
@@ -297,9 +288,7 @@ h1 {
 	background-color: #fff;
 		color: #524B48;
 		font-size: 14px;
-		font-family: 'pt sans
-
-', sans-serif;
+		font-family: 'pt sans', sans-serif;
 }
 
 
