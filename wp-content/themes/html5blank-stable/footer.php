@@ -11,7 +11,7 @@
 				<div class="social-media">
 
 
-				<a target="_blank" title="Follow us on Facebook" href="http://www.facebook.com/getballs" style="font-size: 0px; width:40px;height:40px;margin:0;margin-bottom:5px;margin-right: 5px;"><img alt="facebook" title="Follow us on Facebook"  width="40" height="40" style="display: inline; width:40px;height:40px; margin: 0; padding: 0; border: none; box-shadow: none;" src="<?php echo get_template_directory_uri(); ?>/img/facebook.png"></a>
+				<a target="_blank" title="Follow us on Facebook" href="http://www.facebook.com/getballs" style="font-size: 0px; width:40px;height:40px;margin:0;margin-bottom:5px;margin-right: 5px;margin-left:20px;"><img alt="facebook" title="Follow us on Facebook"  width="40" height="40" style="display: inline; width:40px;height:40px; margin: 0; padding: 0; border: none; box-shadow: none;" src="<?php echo get_template_directory_uri(); ?>/img/facebook.png"></a>
 
 				<a  target="_blank"  title="Follow us on Twitter" href="http://www.twitter.com/cedwardswrites" style="font-size: 0px; width:40px;height:40px;margin:0;margin-bottom:5px;margin-right: 5px;margin-left: 5px;"><img alt="twitter"  style="display: inline; width:40px;height:40px; margin: 0; padding: 0; border: none; box-shadow: none;" title="Follow us on Twitter"  src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"></a>
 

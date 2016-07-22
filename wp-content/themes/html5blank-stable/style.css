@@ -155,19 +155,23 @@ float:left;
 }
 
 .footer-nav  {
-	padding: 0 0 0 20px;
+	padding: 0 0 0 0px;
 	float: left;
 	display: block;
-}
+	text-align:center;
+
+	}
 
 .footer-nav  li {
 	color: #252D68;
 	font-size: 15px;
-	padding-right: 30px;
+	padding-left: 30px;
 	display: inline-block;
-	padding-left: 0;
+
+
 	margin-top: 27px;
 	font-weight: bold;
+
 	text-transform: uppercase;
 }
 
@@ -181,6 +185,7 @@ float:left;
 	text-transform: uppercase;
 	float: left;
 	display: block;
+	
 }
 
 .social-media img {
