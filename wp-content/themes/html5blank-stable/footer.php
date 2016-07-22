@@ -7,29 +7,33 @@
 			<footer class="footer" role="contentinfo">
 
 
+<div class="wrapper clear">
 				<div class="social-media">
 
-					Social Links:&nbsp;
 
-				<a target="_blank" title="Follow us on Facebook" href="http://www.facebook.com/getballs" style="font-size: 0px; width:32px;height:32px;margin:0;margin-bottom:5px;margin-right:20px;margin-left: 20px;"><img alt="facebook" title="Follow us on Facebook"  width="32" height="32" style="display: inline; width:32px;height:32px; margin: 0; padding: 0; border: none; box-shadow: none;" src="<?php echo get_template_directory_uri(); ?>/img/facebook.png"></a>
+				<a target="_blank" title="Follow us on Facebook" href="http://www.facebook.com/getballs" style="font-size: 0px; width:40px;height:40px;margin:0;margin-bottom:5px;margin-right: 5px;"><img alt="facebook" title="Follow us on Facebook"  width="40" height="40" style="display: inline; width:40px;height:40px; margin: 0; padding: 0; border: none; box-shadow: none;" src="<?php echo get_template_directory_uri(); ?>/img/facebook.png"></a>
 
-				<a  target="_blank"  title="Follow us on Twitter" href="http://www.twitter.com/cedwardswrites" style="font-size: 0px; width:32px;height:32px;margin:0;margin-bottom:5px;margin-right:5px;"><img alt="twitter"  style="display: inline; width:32px;height:32px; margin: 0; padding: 0; border: none; box-shadow: none;" title="Follow us on Twitter"  src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"></a>
+				<a  target="_blank"  title="Follow us on Twitter" href="http://www.twitter.com/cedwardswrites" style="font-size: 0px; width:40px;height:40px;margin:0;margin-bottom:5px;margin-right: 5px;margin-left: 5px;"><img alt="twitter"  style="display: inline; width:40px;height:40px; margin: 0; padding: 0; border: none; box-shadow: none;" title="Follow us on Twitter"  src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"></a>
+
+
+				<a target="_blank" title="Find us on Linkedin" href="http://www.linkedin.com/pub/chris-edwards/4/19/679" style="font-size: 0px; width:40px;height:40px;margin:0;margin-bottom:5px;margin-right: 5px;margin-left: 5px;"><img alt="linkedin" title="Find us on Linkedin"  width="40" height="40" style="display: inline; width:40px;height:40px; margin: 0; padding: 0; border: none; box-shadow: none;" src="<?php echo get_template_directory_uri(); ?>/img/linkedin.png"></a>
+
+						</div>
 
 				<ul class="footer-nav">
-					<li>Contact</li>
+					<li>Contact Chris</li>
 					<li>Pre-Order BALLS Now</li>
 					<li>Get BALLS E-News Alerts</li>
 				</ul>
 
-				</div>
+</div>
 
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright Chris Edwards.
+					&copy; <?php echo date('Y'); ?> Chris Edwards
 				</p>
 
 
 
-					<!-- <a target="_blank" title="Find us on Linkedin" href="http://www.linkedin.com/pub/chris-edwards/4/19/679" style="font-size: 0px; width:32px;height:32px;margin:0;margin-bottom:5px;"><img alt="linkedin" title="Find us on Linkedin"  width="32" height="32" style="display: inline; width:32px;height:32px; margin: 0; padding: 0; border: none; box-shadow: none;" src="<?php echo get_template_directory_uri(); ?>/img/linkedin.png"></a> -->
 
 
 
