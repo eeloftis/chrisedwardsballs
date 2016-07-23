@@ -29,7 +29,7 @@
 </div>
 
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Chris Edwards
+					&copy; <?php echo date('Y'); ?> Christopher Edwards
 				</p>
 
 
