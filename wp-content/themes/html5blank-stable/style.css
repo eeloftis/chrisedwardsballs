@@ -360,6 +360,11 @@ a {
 	font-weight: bold;
 }
 
+.date, .author, .comments {
+display: none !important;
+
+}
+
 
 /*------------------------------------*\
     IMAGES
