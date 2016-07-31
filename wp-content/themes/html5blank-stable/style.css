@@ -264,9 +264,7 @@ background-size: 30px 51px !important;
 
 }
 
-::selection {
-	background: #fff !important;
-}
+
 
 .preorder-button {
 	background-color: #2A328E;
@@ -318,11 +316,13 @@ background-size: 30px 51px !important;
 	font-size: 28px;
 }
 
-.event {
+.event a{
  color: #524B48;
  margin-bottom: 20px;
  font-size: 18px;
  font-family: 'pt sans', sans-serif;
+ text-decoration: underline;
+ display: block;
 }
 
 .press {
@@ -406,15 +406,15 @@ a {
 \*------------------------------------*/
 
 ::selection {
-	color:#FFF;
+	color:#CDCDCD;
 	text-shadow:none;
 }
 ::-webkit-selection {
-	color:#FFF;
+	color:#CDCDCD;
 	text-shadow:none;
 }
 ::-moz-selection {
-	color:#FFF;
+	color:#CDCDCD;
 	text-shadow:none;
 }
 

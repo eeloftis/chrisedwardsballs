@@ -23,7 +23,7 @@
 				<ul class="footer-nav">
 					<li><a href="http://www.emilyloftis.com/chrisedwardsballs/contact/">Contact Chris</a></li>
 					<li><a href="http://www.emilyloftis.com/chrisedwardsballs/pre-order-now/">Pre-Order BALLS Now</a></li>
-					<li><a href="http://www.emilyloftis.com/chrisedwardsballs/get-balls-e-news-alerts/">Get BALLS E-News Alerts</a></li>
+					<li><a href="http://www.emilyloftis.com/chrisedwardsballs/get-balls-e-news-alerts/">Get BALLS ENewsletter</a></li>
 				</ul>
 
 </div>
