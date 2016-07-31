@@ -323,6 +323,7 @@ background-size: 30px 51px !important;
  font-family: 'pt sans', sans-serif;
  text-decoration: underline;
  display: block;
+ font-weight: normal;
 }
 
 .press {
