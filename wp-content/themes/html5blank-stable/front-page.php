@@ -11,7 +11,7 @@
   <div class="slider" id="here">
 
     <!-- category="2" for prod -->
- <?php echo do_shortcode('[slick-slider category="2" design="design-2"]'); ?>
+ <?php echo do_shortcode('[slick-slider category="2" design="design-1"]'); ?>
   </div>
 
 
