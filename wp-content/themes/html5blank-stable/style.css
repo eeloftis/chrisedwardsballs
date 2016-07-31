@@ -326,6 +326,11 @@ background-size: 30px 51px !important;
  font-weight: normal;
 }
 
+.event a:hover {
+
+	text-decoration: none;
+}
+
 .press {
 	color: #524B48;
 	margin-bottom: 20px;
@@ -360,7 +365,7 @@ a {
 	font-weight: bold;
 }
 
-.date, .author, .comments {
+.date, .author, .comments, .post-edit-link {
 display: none !important;
 
 }
