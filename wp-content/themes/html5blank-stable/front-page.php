@@ -15,7 +15,7 @@
   </div>
 
 
-  <a class="preorder-button" href="">Pre-order Now</a>
+  <a class="preorder-button" href="http://www.emilyloftis.com/chrisedwardsballs/pre-order-now/">Pre-order Now</a>
 
   <div class="row clear">
     <div class="boxes"><h2>Upcoming Events</h2>
