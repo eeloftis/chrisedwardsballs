@@ -47,7 +47,7 @@
 						<?php html5blank_nav(); ?>
 					</nav>
 					<!-- /nav -->
-
+<div style="float:left;position:Relative;top:20px;font-size:14px;text-align:center;color:#000;background-color:#fff;font-weight:bold;padding:5px;">Available<br> 10.4.16</div>
 			</header>
 			<!-- /header -->
 

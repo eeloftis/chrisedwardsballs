@@ -11,7 +11,7 @@
   <div class="slider" id="here">
 
     <!-- category="2" for prod -->
- <?php echo do_shortcode('[slick-slider category="2" design="design-1"  autoplay_interval="7000"]'); ?>
+ <?php echo do_shortcode('[slick-slider category="3" design="design-1"  autoplay_interval="4000"]'); ?>
   </div>
 
 
@@ -21,25 +21,9 @@
     <div class="boxes"><h2>Upcoming Events</h2>
 
 
+  <?php
 
-<?php
-
-
-$args = array(
-    'post_type' => 'event',
-    'tax_query' => array(
-        array(
-            'taxonomy' => 'front-page',
-
-        )
-    )
-);
-$query = new WP_Query( $args );
-
-
-//for a given post type, return all
-$event_post = 'event';
-
+    $event_post = 'event';
 
     $args=array(
       'post_type' => $event_post,
@@ -49,15 +33,17 @@ $event_post = 'event';
 
     $my_query = null;
     $my_query = new WP_Query($args);
-  wp_reset_query();
+
     if( $my_query->have_posts() ) {
       while ($my_query->have_posts()) : $my_query->the_post(); ?>
         <div class="event"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></div>
         <?php
       endwhile;
     }
-      wp_reset_query();
-?>
+
+    wp_reset_query();
+
+  ?>
 
 
     </div>

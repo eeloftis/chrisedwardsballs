@@ -120,19 +120,20 @@ float:left;
 	padding-left: 20px;
 }
 
-.nav ul li{
+.nav ul li {
 	display: inline-block;
-
 }
 
 .nav ul li a {
 	color: #fff;
 	font-size: 18px;
 	font-weight: bold;
-
 	padding-left: 20px;
 	padding-right: 20px;
+}
 
+.nav ul li a:hover {
+	color: #CDCDCD;
 }
 
 /* sidebar */
@@ -226,6 +227,7 @@ background-color:  #E6E6E6;
 		background-color: #fff;
 		position: relative;
 		top: -10px;
+
 }
 
 .wpsisac-slick-slider.design-1 .slick-dots {
@@ -331,6 +333,10 @@ background-size: 30px 51px !important;
 	text-decoration: none;
 }
 
+.event p {
+	font-size: 16px;
+}
+
 .press {
 	color: #524B48;
 	margin-bottom: 20px;
@@ -355,7 +361,7 @@ h1 {
 	background-color: #fff;
 		color: #524B48;
 		height: auto;
-		font-size: 14px;
+		font-size: 16px;
 		font-family: 'pt sans', sans-serif;
 }
 
