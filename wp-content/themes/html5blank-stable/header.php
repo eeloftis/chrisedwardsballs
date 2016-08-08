@@ -42,12 +42,13 @@
 					</div>
 					<!-- /logo -->
 
+					<div class="toggle">Menu</div>
 					<!-- nav -->
 					<nav class="nav" role="navigation">
 						<?php html5blank_nav(); ?>
 					</nav>
 					<!-- /nav -->
-<div style="float:left;position:Relative;top:20px;font-size:14px;text-align:center;color:#000;background-color:#fff;font-weight:bold;padding:5px;">Available<br> 10.4.16</div>
+<div class="badge">Available<br> 10.4.16</div>
 			</header>
 			<!-- /header -->
 
