@@ -42,7 +42,7 @@
 					</div>
 					<!-- /logo -->
 
-					<div class="toggle">Menu</div>
+					<div class="toggle"><img src="<?php echo get_template_directory_uri(); ?>/img/mobile-menu.png" alt="Menu Icon" class="menu icon" ></div>
 					<!-- nav -->
 					<nav class="nav" role="navigation">
 						<?php html5blank_nav(); ?>

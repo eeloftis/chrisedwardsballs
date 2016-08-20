@@ -11,11 +11,11 @@
   <div class="slider" id="here">
 
     <!-- category="2" for prod -->
- <?php echo do_shortcode('[slick-slider category="2" design="design-1"  autoplay_interval="4000"]'); ?>
+ <?php echo do_shortcode('[slick-slider category="3" design="design-1"  autoplay_interval="4000"]'); ?>
   </div>
 
 
-  <a class="preorder-button" href="http://www.emilyloftis.com/chrisedwardsballs/pre-order-now/">Pre-order Now</a>
+  <a class="preorder-button" href="http://www.chrisedwardsballs.com/pre-order-balls-now/">Pre-order Now</a>
 
   <div class="row clear">
     <div class="boxes"><h2>Upcoming Events</h2>
