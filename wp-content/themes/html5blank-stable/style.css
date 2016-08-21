@@ -249,6 +249,13 @@ background-color:  #E6E6E6;
 	bottom: -34px !important;
 }
 
+.cycloneslider-template-standard .cycloneslider-next .arrow {
+	background-image: url('img/arrow-right.png') !important;
+	border-left: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
 .cycloneslider-template-standard .cycloneslider-pager span {
 	background-color: #cdcdcd !important;
 }
