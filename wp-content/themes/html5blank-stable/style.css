@@ -249,11 +249,17 @@ background-color:  #E6E6E6;
 	bottom: -34px !important;
 }
 
+.cycloneslider-template-standard .cycloneslider-slides {
+	max-height 350px !important;
+}
+
 .cycloneslider-template-standard .cycloneslider-next {
 		background: url('img/arrow-right.png') 0 0 no-repeat !important;
 		background-size: 30px 51px !important;
 		width: 30px !important;
 		height: 51px !important;
+		border-radius: 0 !important;
+		box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.3) !important;
 }
 
 .cycloneslider-template-standard .cycloneslider-next .arrow {
@@ -270,7 +276,7 @@ background-color:  #E6E6E6;
 	background-color: #fff !important;
 	border: 1px solid #cdcdcd !important;
 	-webkit-box-shadow: none !important;
-	box-shadow: none !important;
+	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.3) !important;
 }
 
 
