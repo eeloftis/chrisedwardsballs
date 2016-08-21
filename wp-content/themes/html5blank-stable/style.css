@@ -260,6 +260,7 @@ background-color:  #E6E6E6;
 		height: 51px !important;
 		border-radius: 0 !important;
 		box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.3) !important;
+		right: -50px !important;
 }
 
 .cycloneslider-template-standard .cycloneslider-next .arrow {
@@ -269,11 +270,11 @@ background-color:  #E6E6E6;
 }
 
 .cycloneslider-template-standard .cycloneslider-pager span {
-	background-color: #cdcdcd !important;
+		background-color: #fff !important;
 }
 
 .cycloneslider-template-standard .cycloneslider-pager span.cycle-pager-active {
-	background-color: #fff !important;
+	background-color: #cdcdcd !important;
 	border: 1px solid #cdcdcd !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.3) !important;
