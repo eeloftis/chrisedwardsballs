@@ -249,6 +249,11 @@ background-color:  #E6E6E6;
 	bottom: -34px !important;
 }
 
+
+.cycloneslider-template-standard .cycloneslider-pager span.cycle-pager-active {
+	background-color: #fff;
+}
+
 .wpsisac-slick-slider.design-1 .slick-next {
 	right: -50px !important;
 	background-color: transparent !important;
@@ -600,6 +605,8 @@ background-image: url('img/linkedin-hover.png');
 .wpsisac-slick-slider.design-1 .slick-dots {
 	display: none !important;
 }
+
+
 
 
 }
