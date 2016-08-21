@@ -251,8 +251,11 @@ background-color:  #E6E6E6;
 
 
 .cycloneslider-template-standard .cycloneslider-pager span.cycle-pager-active {
-	background-color: #fff;
+	background-color: #fff !important;
+	border: 1px solid #cdcdcd !important;
 }
+
+
 
 .wpsisac-slick-slider.design-1 .slick-next {
 	right: -50px !important;
