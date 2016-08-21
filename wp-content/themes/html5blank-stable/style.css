@@ -249,10 +249,15 @@ background-color:  #E6E6E6;
 	bottom: -34px !important;
 }
 
+.cycloneslider-template-standard .cycloneslider-pager span {
+	background-color: #cdcdcd !important;
+}
 
 .cycloneslider-template-standard .cycloneslider-pager span.cycle-pager-active {
 	background-color: #fff !important;
 	border: 1px solid #cdcdcd !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 }
 
 
