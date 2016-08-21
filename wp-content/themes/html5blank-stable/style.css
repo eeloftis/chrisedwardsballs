@@ -250,7 +250,10 @@ background-color:  #E6E6E6;
 }
 
 .cycloneslider-template-standard .cycloneslider-next {
-		background-image: url('img/arrow-right.png') !important;
+		background: url('img/arrow-right.png') 0 0 no-repeat !important;
+		background-size: 30px 51px !important;
+		width: 30px !important;
+		height: 51px !important;
 }
 
 .cycloneslider-template-standard .cycloneslider-next .arrow {
