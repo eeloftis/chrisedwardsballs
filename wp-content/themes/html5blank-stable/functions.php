@@ -435,13 +435,13 @@ function create_press()
 {
     register_taxonomy_for_object_type('category', 'front-page'); // Register Taxonomies for Category
     register_taxonomy_for_object_type('post_tag', 'press');
-    register_post_type('event', // Register Custom Post Type
+    register_post_type('press', // Register Custom Post Type
         array(
         'labels' => array(
             'name' => __('Press', 'press'), // Rename these to suit
             'singular_name' => __('Press', 'press'),
             'add_new' => __('Add New', 'press'),
-            'add_new_item' => __('ress', 'press'),
+            'add_new_item' => __('Press', 'press'),
             'edit' => __('Edit', 'press'),
             'edit_item' => __('Edit Press', 'press'),
             'new_item' => __('New Press', 'press'),
