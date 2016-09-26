@@ -345,7 +345,8 @@ add_action('wp_print_scripts', 'html5blank_conditional_scripts'); // Add Conditi
 add_action('get_header', 'enable_threaded_comments'); // Enable Threaded Comments
 add_action('wp_enqueue_scripts', 'html5blank_styles'); // Add Theme Stylesheet
 add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
-add_action('init', 'create_events'); // Add our HTML5 Blank Custom Post Type
+add_action('init', 'create_events'); // Add Events Post Type
+add_action('init', 'create_press'); // Add Press Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
 
@@ -407,7 +408,7 @@ function create_events()
             'edit' => __('Edit', 'event'),
             'edit_item' => __('Edit Event', 'event'),
             'new_item' => __('New Event', 'event'),
-            'view' => __('View HTML5 Blank Custom Post', 'event'),
+            'view' => __('View Event', 'event'),
             'view_item' => __('View Event', 'event'),
             'search_items' => __('Search Event', 'event'),
             'not_found' => __('No Events found', 'event'),
@@ -429,6 +430,44 @@ function create_events()
         ) // Add Category and Post Tags support
     ));
 }
+
+function create_press()
+{
+    register_taxonomy_for_object_type('category', 'front-page'); // Register Taxonomies for Category
+    register_taxonomy_for_object_type('post_tag', 'press');
+    register_post_type('event', // Register Custom Post Type
+        array(
+        'labels' => array(
+            'name' => __('Press', 'press'), // Rename these to suit
+            'singular_name' => __('Press', 'press'),
+            'add_new' => __('Add New', 'press'),
+            'add_new_item' => __('ress', 'press'),
+            'edit' => __('Edit', 'press'),
+            'edit_item' => __('Edit Press', 'press'),
+            'new_item' => __('New Press', 'press'),
+            'view' => __('View Press', 'press'),
+            'view_item' => __('View Press', 'press'),
+            'search_items' => __('Search Press', 'press'),
+            'not_found' => __('No Press found', 'press'),
+            'not_found_in_trash' => __('No Press found in Trash', 'press')
+        ),
+        'public' => true,
+        'hierarchical' => true, // Allows your posts to behave like Hierarchy Pages
+        'has_archive' => true,
+        'supports' => array(
+            'title',
+            'editor',
+            'excerpt',
+            'thumbnail'
+        ), // Go to Dashboard Custom HTML5 Blank post for supports
+        'can_export' => true, // Allows export in Tools > Export
+        'taxonomies' => array(
+            'post_tag',
+            'category'
+        ) // Add Category and Post Tags support
+    ));
+}
+
 
 /*------------------------------------*\
 	ShortCode Functions
