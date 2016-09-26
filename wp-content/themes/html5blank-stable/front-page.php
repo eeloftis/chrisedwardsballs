@@ -68,7 +68,7 @@
 
       if( $press_query->have_posts() ) {
         while ($press_query->have_posts()) : $press_query->the_post(); ?>
-        <div class="event"><?php the_content(); ?></div>
+        <?php the_content(); ?>
           <?php
         endwhile;
       }
