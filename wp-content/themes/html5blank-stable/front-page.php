@@ -36,7 +36,7 @@
 
     if( $my_query->have_posts() ) {
       while ($my_query->have_posts()) : $my_query->the_post(); ?>
-        <div class="event"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></div>
+        <div class="event"><?php the_content(); ?></div>
         <?php
       endwhile;
     }
@@ -50,7 +50,7 @@
 
 
 
-      <div class="boxes"><h2>Upcoming Events</h2>
+      <div class="boxes"><h2>RECENT PRESS</h2>
 
 
     <?php
