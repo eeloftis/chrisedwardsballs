@@ -539,7 +539,7 @@ background-image: url('img/linkedin-hover.png');
 @media only screen and (max-width:840px) {
 
 	.nav ul li a {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.badge {
