@@ -28,7 +28,8 @@
     $args=array(
       'post_type' => $event_post,
       "front-page" => front-page,
-      'post_status' => 'publish'
+      'post_status' => 'publish',
+      'posts_per_page'=> 3
     );
 
     $my_query = null;
@@ -60,7 +61,8 @@
       $args=array(
         'post_type' => $press_post,
         "front-page" => front-page,
-        'post_status' => 'publish'
+        'post_status' => 'publish',
+        'posts_per_page'=> 3
       );
 
       $press_query = null;
