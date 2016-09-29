@@ -142,17 +142,17 @@ float:left;
 }
 
 .badge {
-	float:right;
-	position:Relative;
-	right:-35px;
-	font-size:14px;
-	text-align:center;
-	color:#fff;
-	background-color:#2A328E;
-	font-weight:bold;
-	padding:5px;
-	margin-left:10px;
-	right:-20px;
+	float: right;
+	position: relative;
+	top: -35px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background-color: #2A328E;
+	font-weight: bold;
+	padding: 5px;
+	margin-left: 10px;
+	right: -50px;
 }
 
 /* sidebar */
