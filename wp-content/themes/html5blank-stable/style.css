@@ -144,7 +144,7 @@ float:left;
 .badge {
 	float: right;
 	position: relative;
-	top: -35px;
+	top: 20px;
 	font-size: 14px;
 	text-align: center;
 	color: #fff;
@@ -152,7 +152,6 @@ float:left;
 	font-weight: bold;
 	padding: 5px;
 	margin-left: 10px;
-	right: -50px;
 }
 
 /* sidebar */
