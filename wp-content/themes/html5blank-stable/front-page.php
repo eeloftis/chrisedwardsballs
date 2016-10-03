@@ -28,10 +28,7 @@
     $args=array(
       'post_type' => $event_post,
       "front-page" => front-page,
-      'post_status' => 'publish',
-      'posts_per_page'=> 3,
-      'offset' => 1,
-      'order'   => 'ASC',
+      'post_status' => 'publish'
     );
 
     $my_query = null;
