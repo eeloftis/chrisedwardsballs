@@ -48,7 +48,7 @@
 						<?php html5blank_nav(); ?>
 					</nav>
 					<!-- /nav -->
-<div class="badge">Available<br> 10.4.16</div>
+<div class="badge">Order Now</div>
 			</header>
 			<!-- /header -->
 

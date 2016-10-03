@@ -22,7 +22,7 @@
 
 				<ul class="footer-nav">
 					<li><a href="http://www.chrisedwardsballs.com/contact/">Contact Chris</a></li>
-					<li><a href="http://www.chrisedwardsballs.com/pre-order-balls-now/">Pre-Order <i>BALLS</i> Now!</a></li>
+					<li><a href="http://www.chrisedwardsballs.com/pre-order-balls-now/">Order <i>BALLS</i> Now!</a></li>
 					<li><a href="http://www.chrisedwardsballs.com/get-the-balls-e-newsletter/"><i>BALLS</i> E-Newsletter</a></li>
 				</ul>
 

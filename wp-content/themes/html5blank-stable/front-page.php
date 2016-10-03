@@ -15,7 +15,7 @@
   </div>
 
 
-  <a class="preorder-button" href="http://www.chrisedwardsballs.com/pre-order-balls-now/">Pre-order Now</a>
+  <a class="preorder-button" href="http://www.chrisedwardsballs.com/pre-order-balls-now/">Order Now</a>
 
   <div class="row clear">
     <div class="boxes"><h2>Upcoming Events</h2>
