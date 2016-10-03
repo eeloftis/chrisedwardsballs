@@ -469,6 +469,15 @@ function create_press()
 }
 
 
+function no_nopaging($query) {
+if (is_post_type_archive()) {
+$query->set('nopaging', 1);
+}
+}
+
+add_action('parse_query', 'no_nopaging');
+
+
 /*------------------------------------*\
 	ShortCode Functions
 \*------------------------------------*/
